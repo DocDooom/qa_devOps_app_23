@@ -1,0 +1,1 @@
+print(sum(i in "aeiou" for i in input("Input a string to get vowel count: ").lower()))
