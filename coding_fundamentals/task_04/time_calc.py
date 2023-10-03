@@ -73,3 +73,5 @@ match selection:
         pass
     case "8":
         exit()
+    case _:
+        print("Invalid Input...")

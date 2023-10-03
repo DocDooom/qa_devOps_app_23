@@ -12,12 +12,15 @@ ages = [age + 1 for age in ages]
 print(ages)
 
 filtered_ages = [age for age in ages if 16<=age<=65]
+print("FILTERED AGES")
 print(filtered_ages)
 print(len(filtered_ages))
 
 filtered_ages.sort()
 
 print(filtered_ages)
+
+print(len([age for age in filtered_ages if 16<=age<=25]))
 
 proportion = (sum(1 for age in filtered_ages if 16<=age<=25)) / len(filtered_ages)
 
