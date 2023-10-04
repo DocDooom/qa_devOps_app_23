@@ -4,7 +4,7 @@ import csv
 file_path = 'carsale.csv'
 
 # Create a list to store monthly sums
-monthly_sums = [0] * 8  # Assuming 8 months of data; adjust as needed
+monthly_sums = [0] * 8 
 
 with open(file_path, mode ='r') as file:
     csv_reader = csv.reader(file)
