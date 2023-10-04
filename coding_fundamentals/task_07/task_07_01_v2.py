@@ -12,6 +12,7 @@ with open(file_path, mode='r') as file:
 
     for row in csv_reader:
         if not row:
+            print("not row")
             continue  # Skip empty rows
             
         company_name = row[0]
@@ -32,7 +33,6 @@ print(*monthly_sums, sep="\n")
 print("Total: ", sum(monthly_sums))
 
 print("====================================================")
-
 
 for company, total in total_man:
     print(company)
