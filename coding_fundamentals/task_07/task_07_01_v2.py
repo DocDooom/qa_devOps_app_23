@@ -1,6 +1,5 @@
 import csv
 
-# Replace 'carsale.csv' with the actual name of your file
 file_path = 'carsale.csv'
 
 # Create a list to store monthly sums
@@ -23,7 +22,7 @@ with open(file_path, mode='r') as file:
 
         # Add up the monthly data to monthly_sums
         monthly_sums = [sum(x) for x in zip(monthly_sums, monthly_data)]
-        
+
         total_man.append((company_name, sum(monthly_data)))
 
 # Print the results
