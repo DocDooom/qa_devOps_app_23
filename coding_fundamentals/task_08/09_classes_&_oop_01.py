@@ -10,8 +10,7 @@ class Student:
     def calc_avg_score(self, t_1, t_2, t_3):
         return (t_1 + t_2 + t_3) / 3
 
-
-
+        
 student_01 = Student("John", 20, "Class A")
 student_02 = Student("Martin", 18, "Class B")
 
