@@ -13,7 +13,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Testing...'
-                sh echo "move text to file" >> test.txt
                 // Add your test commands here.
             }
         }
