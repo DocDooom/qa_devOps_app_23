@@ -4,8 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh touch test.txt
-                sh ls -a
                 // Add your build commands here.
             }
         }
